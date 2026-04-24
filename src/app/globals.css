@@ -23,7 +23,7 @@
   --container-pad: clamp(1.25rem, 4vw, 3rem);
   --promo-marquee-height: 2.25rem;
   --header-nav-height: 4.5rem;
-  --header-offset: calc(var(--promo-marquee-height) + var(--header-nav-height));
+  --header-offset: var(--header-nav-height);
 }
 
 @media (min-width: 768px) {

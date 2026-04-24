@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 import { BrandLogo } from "@/components/BrandLogo";
-import { PromoMarquee } from "@/components/PromoMarquee";
 import { siteCopy } from "@/content/siteCopy";
 import { useCart } from "@/context/CartContext";
 import { routes } from "@/lib/site";
@@ -85,7 +84,6 @@ export function SiteHeader() {
           scrolled ? "shadow-md" : "shadow-none"
         }`}
       >
-        <PromoMarquee />
         <header
           className={`w-full border-b px-[var(--container-pad)] transition-[box-shadow,background-color,border-color,backdrop-filter] duration-300 ${headerSurface}`}
         >

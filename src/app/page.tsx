@@ -5,6 +5,7 @@ import { HomeCategoryTiles } from "@/components/HomeCategoryTiles";
 import { HomeFaq } from "@/components/HomeFaq";
 import { HomeProductRail } from "@/components/HomeProductRail";
 import { HomeCtaBand, HomeValueSection } from "@/components/HomeValueSection";
+import { PromoMarquee } from "@/components/PromoMarquee";
 import { TrustStrip } from "@/components/TrustStrip";
 import { defaultDescription, defaultTitle, siteUrl } from "@/lib/site";
 
@@ -34,6 +35,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <PromoMarquee />
       <TrustStrip />
       <HomeCategoryTiles />
       <Suspense fallback={<ProductRailFallback />}>

@@ -12,9 +12,9 @@ export function Hero() {
       className="hero-viewport-h relative flex flex-col items-center justify-center overflow-hidden bg-hero-bg px-[var(--container-pad)] pb-24 pt-[calc(var(--header-offset)+1.25rem)] md:pb-20 md:pt-[calc(var(--header-offset)+1.75rem)]"
       aria-label="Intro"
     >
-      <div className="absolute inset-0 z-0 overflow-hidden motion-reduce:hidden">
+      <div className="absolute inset-0 z-0 overflow-hidden bg-hero-bg motion-reduce:hidden">
         <video
-          className="absolute inset-0 h-full w-full origin-center scale-[1.06] object-cover object-center"
+          className="absolute inset-0 h-full w-full object-cover object-center"
           autoPlay
           muted
           loop
